@@ -1,0 +1,86 @@
+body{
+background-color: #CCCCFF;
+}
+
+nav {
+    background-color: #aeaef8ec; min-height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding: 15px;
+    width: 100%;
+}
+
+nav a{
+    outline: 5px dotted #000000;
+    padding: 8px 16px;
+    font-size: 1.5em; text-decoration: none;
+    font-family: verdana;
+    margin: 5px 10px;
+}
+
+nav a:hover{
+    background-color: #F6DCD2;
+}
+
+.company-schedule{
+    width: 400px; 
+    height: 600px;
+    border: 100%;
+    padding: 100px 25% 300px 25%;
+}
+
+.center_image {
+    display: block;
+    margin: 0 auto;
+}
+    
+h1 {
+    text-align: center;
+}
+
+.gallery {
+    position: relative;
+    width: 700px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.resume-gallery-img {
+    position: absolute;
+    width: 220px;
+    height: 300px;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 5px 12px rgba(0,0,0,.3);
+    transition: transform .3s ease;
+}
+
+.img1 {
+    left: 60px;
+    top: 0;
+}
+
+.img2 {
+    right: 60px;
+    top: 0;
+}
+
+.img5 {
+    left: 240px;
+    top: 200px;
+}
+
+.img3 {
+    left: 60px;
+    top: 430px;
+}
+
+.img4 {
+    right: 60px;
+    top: 430px;
+}
+
+.img5:hover {
+    transform: scale(1.1);
+    z-index: 10;
+}
