@@ -84,3 +84,31 @@ h1 {
     transform: scale(1.1);
     z-index: 10;
 }
+
+.Plyo-Circuit{
+    background-color: #f6cdf7ec; min-height: 50px;
+    outline: 5px double #000000;
+    line-height: 50px;
+    margin: 30px 25%;
+}
+
+.Core-Circuit{
+    background-color: #f6cdf7ec; min-height: 50px;
+    outline: 5px double #000000;
+    line-height: 50px;
+    margin: 30px 25%;
+}
+ .Arms-Circuit{
+    background-color: #f6cdf7ec; min-height: 50px;
+    outline: 5px double #000000;
+    line-height: 50px;
+    margin: 30px 25%;
+ }
+
+ .Plyo-Links{
+    background-color: #bdbdf596; min-height: auto;
+    outline: 1px solid #000000;
+    padding: 8px 16px;
+    margin: 5px 10px;
+    text-align: center;
+ }
