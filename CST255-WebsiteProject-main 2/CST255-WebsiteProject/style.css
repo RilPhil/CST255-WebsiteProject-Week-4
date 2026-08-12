@@ -33,6 +33,22 @@ nav a:hover{
     display: block;
     margin: 0 auto;
 }
+
+nav button {
+    outline: 5px dotted #000000;
+    padding: 8px 16px;
+    font-size: 1.5em; 
+    font-family: verdana;
+    margin: 5px 10px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #0004ea;
+}
+
+nav button:hover {
+    background-color: #F6DCD2;
+}
     
 h1 {
     text-align: center;
